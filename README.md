@@ -1,1 +1,1 @@
-# cats-are-gods
+# Cats are gods
