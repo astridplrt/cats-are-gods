@@ -1,0 +1,150 @@
+/******  FONTS  ******/
+
+@font-face{
+	font-family: "Montserrat_regular";
+	src: url('font/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Montserrat_medium";
+	src: url('font/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face{
+	font-family: "Playfair_regular";
+	src: url('font/Playfair/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face{
+	font-family: "Playfair_italic";
+	src: url('font/Playfair/PlayfairDisplay-Italic.ttf');
+}
+
+@font-face{
+	font-family: "Nunito_Sans";
+	font-style: regular;
+	src: url('font/Nunito Sans/NunitoSans-Regular');
+}
+
+/******  BODY  ******/
+
+body{
+	min-height: 100vh;
+}
+
+/******  HEADER  ******/
+
+header{
+	position: absolute;
+	background: rgba(35, 35, 60, 0.3);
+	width: 100%;
+	height: 21vh;
+	color: white;
+}
+
+header a img.logo_header{
+	position: absolute;
+	top: calc(10.5vh - 50px);
+	height: 100px;
+	padding: 0 60px;
+}
+
+header div.header_social_media_icons{
+	display: flex;
+	position: absolute;
+	top: 20px;
+	right: 25px;
+}
+
+header div.header_social_media_icons a img{
+	height: 35px;
+	padding: 0 15px;
+}
+
+header h1{
+	font-family: 'Playfair_regular', "Time New Roman", serif;
+	text-align: center;
+	font-size: 72px;
+	font-weight: normal;
+	padding-top: 20px;
+}
+
+header ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	min-width: 1600px;
+	margin: 0;
+	padding: 0 350px;
+}
+
+header ul li{
+	padding: 5px 10px;
+	margin: 15px 0;
+	font-family: 'Montserrat_regular', sans-serif;
+	font-style: normal;
+}
+
+header a{
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover{
+	color: white;
+}
+
+/******  TARGET TAB  ******/
+
+section:not(:target){
+	display: none;
+}
+
+section:target{
+	display: block;
+}
+
+/******  GENERALITIES FOR ALL SECTIONS  ******/
+
+div.quote_under_header{
+	position: relative;
+	top: 21vh;
+	height: 79vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.quote_under_header div.text_on_background_image{
+	font-family: 'Montserrat_medium', sans-serif;
+	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+	color: white;
+}
+
+p.author{
+	font-family: 'Playfair_italic', sans-serif;
+	text-transform: none;
+	font-size: 24px;
+	font-weight: 400;
+	text-align: right;
+}
+
+/******  HOME PAGE  ******/
+
+section#home_page{
+	position: relative;
+	background: url("pictures/cat-gdf99b792e_1920.jpg") center;
+	height: 100vh;
+	z-index: -1;
+}
+
+/******  FIGARO THE WISE  ******/
+
+section#figaro_the_wise{
+	position: relative;
+	background: url("pictures/IMGP1490.jpg") center;
+	height: 100vh;
+	z-index: -1;
+}
