@@ -133,18 +133,20 @@ p.author{
 
 /******  HOME PAGE  ******/
 
-section#home_page{
+section {
 	position: relative;
-	background: url("pictures/cat-gdf99b792e_1920.jpg") center;
+	background-size: cover;
+	background-position: center;
 	height: 100vh;
 	z-index: -1;
+}
+
+section#home_page{
+	background-image: url("pictures/cat-gdf99b792e_1920.jpg");
 }
 
 /******  FIGARO THE WISE  ******/
 
 section#figaro_the_wise{
-	position: relative;
-	background: url("pictures/IMGP1490.jpg") center;
-	height: 100vh;
-	z-index: -1;
+	background-image: url("pictures/IMGP1490.jpg");
 }
