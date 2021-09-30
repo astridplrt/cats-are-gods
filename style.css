@@ -142,14 +142,14 @@ p.author{
 	text-align: right;
 }
 
-/******  HOME PAGE  ******/
-
 section {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	z-index: -1;
 }
+
+/******  HOME PAGE  ******/
 
 section#home-page{
 	background-image: url("pictures/cat-gdf99b792e_1920.jpg");
@@ -158,5 +158,29 @@ section#home-page{
 /******  FIGARO THE WISE  ******/
 
 section#figaro-the-wise{
-	background-image: url("pictures/IMGP1490.jpg");
+	background-image: url("pictures/P80224-144019.jpg");
+}
+
+/******  PAZU THE STOMPER  ******/
+
+section#pazu-the-stomper{
+	background-image: url("pictures/P80810-164529.jpg");
+}
+
+/******  MEI THE PRECIOUS  ******/
+
+section#mei-the-precious{
+	background-image: url("pictures/P80810-171616.jpg");
+}
+
+/******  LYNX THE ANCESTOR  ******/
+
+section#lynx-the-ancestor{
+	background-image: url("pictures/P80224-144019.jpg");
+}
+
+/******  TOM THE PILGRIM  ******/
+
+section#tom-the-pilgrim{
+	background-image: url("pictures/P80224-144019.jpg");
 }
